@@ -10,6 +10,7 @@ let names = [
     "Rogerere",
 ];
 let bools = [true, false, true, false, true, false];
+let middleNames = ["Carl", "Hugo", "Steffe", "Roffe"];
 let lastNames = [
     "Goransson",
     "Andersson",
@@ -44,5 +45,13 @@ bools.forEach((bool) => {
 });
 lastNames.forEach((lastName) => {
     console.log(lastName);
+});
+middleNames.forEach((middleName) => {
+    if (middleName.length > 5) {
+        console.log(`${middleName} is a bit longk matey`);
+    }
+    else {
+        console.log(`${middleName} is a tad short there shorty`);
+    }
 });
 //# sourceMappingURL=index.js.map
