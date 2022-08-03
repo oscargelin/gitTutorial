@@ -7,8 +7,17 @@ let names = [
     "Wiktor",
     "Sebastian",
     "Henrik",
+    "Rogerere",
 ];
 let bools = [true, false, true, false, true, false];
+let lastNames = [
+    "Goransson",
+    "Andersson",
+    "Svensson",
+    "Leopoldsson",
+    "Stephensson",
+    "Rogersson",
+];
 numbers.forEach((num) => {
     if (num % 2 == 0) {
         console.log("Even steven");
@@ -32,5 +41,8 @@ bools.forEach((bool) => {
     else {
         console.log("Naaaw son");
     }
+});
+lastNames.forEach((lastName) => {
+    console.log(lastName);
 });
 //# sourceMappingURL=index.js.map
